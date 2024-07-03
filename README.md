@@ -28,6 +28,7 @@ Technologies used
 - API: Public recipe API for fetching recipes as well as custom API
 
 Frontend Details
+
 The frontend is developed using React and includes the following key components:
 
 - HomePage: Displays a list of recipes fetched from the public API.
@@ -36,10 +37,13 @@ The frontend is developed using React and includes the following key components:
 - RecipeTile: Form component for creating and editing recipes.
 
 Key Files and Directories
+
 - src/App.js: Main application component.
 - src/main.js: Entry point of the React application.
 - client/index.html: HTML template.
+- 
 Backend Details
+
 The backend is developed using Django and Django REST Framework and includes the following key features:
 
 - Recipe Model: Defines the schema for storing recipes.
@@ -52,7 +56,9 @@ The backend is developed using Django and Django REST Framework and includes the
 - recipes/urls.py: URL routing for the Recipe API endpoints.
 - recipebook/settings.py: Django project settings.
 - recipebook/urls.py: URL routing for the Django project.
+- 
 Middleware Interaction
+
 The middleware is responsible for handling interactions between the frontend and backend. It includes:
 
 - API Calls: The frontend makes API calls to the backend using Axios (or Fetch) to perform CRUD operations on recipes.
