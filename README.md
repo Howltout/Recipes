@@ -56,7 +56,7 @@ The backend is developed using Django and Django REST Framework and includes the
 - recipes/urls.py: URL routing for the Recipe API endpoints.
 - recipebook/settings.py: Django project settings.
 - recipebook/urls.py: URL routing for the Django project.
-- 
+
 Middleware Interaction
 
 The middleware is responsible for handling interactions between the frontend and backend. It includes:
