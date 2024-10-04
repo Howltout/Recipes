@@ -41,7 +41,7 @@ Key Files and Directories
 - src/App.js: Main application component.
 - src/main.js: Entry point of the React application.
 - client/index.html: HTML template.
-- 
+
 Backend Details
 
 The backend is developed using Django and Django REST Framework and includes the following key features:
